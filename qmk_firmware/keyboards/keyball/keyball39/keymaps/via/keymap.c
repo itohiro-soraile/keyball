@@ -69,3 +69,14 @@ void oledkit_render_info_user(void) {
     keyball_oled_render_layerinfo();
 }
 #endif
+
+
+#ifdef COMBO_ENABLE
+const uint16_t PROGMEM my_mouse1[] = {KC_J, KC_K, COMBO_END}; // JとKの同時押しでマウス左クリック
+const uint16_t PROGMEM my_esc[] = {KC_Q, KC_W, COMBO_END}; // QとWの同時押しでESCキー
+
+combo_t key_combos[] = {
+    COMBO(my_mouse1, KC_BTN1), // マウス左クリック（Mouse1）を追加
+    COMBO(my_esc, KC_ESC), // ESCキーを追加
+};
+#endif
