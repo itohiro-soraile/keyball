@@ -39,7 +39,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define AUTO_MOUSE_DEFAULT_LAYER 5
 #define DYNAMIC_KEYMAP_LAYER_COUNT 6
 
-#define AUTO_MOUSE_TIME 50 // マウスが止まってから元のレイヤーに戻るまでの時間(ms)
+#define AUTO_MOUSE_TIME 50
 
 
 
