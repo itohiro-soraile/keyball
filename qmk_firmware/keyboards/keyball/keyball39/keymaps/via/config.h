@@ -37,8 +37,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define POINTING_DEVICE_AUTO_MOUSE_ENABLE
 #define AUTO_MOUSE_DEFAULT_LAYER 4
-#define DYNAMIC_KEYMAP_LAYER_COUNT 6
+#define DYNAMIC_KEYMAP_LAYER_COUNT 7
 
-#define AUTO_MOUSE_TIME 500
+#define AUTO_MOUSE_TIME 300
 
-// #define TAPPING_TERM 180
+#define HOLD_ON_OTHER_KEY_PRESS
+
+#define TAPPING_TERM 180
+
+#define TAPPING_TERM_PER_KEY
